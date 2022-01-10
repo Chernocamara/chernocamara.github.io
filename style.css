@@ -1,0 +1,126 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 5%;
+
+
+}
+
+
+.menu ul {
+    display: flex;
+
+}
+
+.logo {
+
+    border-radius: 15px;
+    font-size: 34px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.logo:hover {
+    color: #000;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 3px;
+}
+
+.logo2 {
+    right: 25%;
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 100px;
+    margin-right: 10%;
+
+}
+
+.text1 {
+    padding: 14px 5%;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text1 h1 {
+    text-align: center;
+}
+
+.text2 {
+    margin-left: 0%;
+    padding-left: 0%;
+    font: 1em sans-serif;
+}
+
+.box1 {
+
+
+
+    background-color: lightgrey;
+    width: 90%;
+    border: 2px solid black;
+
+    height: 350px;
+    background-color: pink;
+
+
+}
+
+.pic1 {
+    width: 25%;
+    height: 30%;
+    border: 2px solid black;
+    margin-left: 5%;
+
+
+}
+
+.right {
+    float: right;
+    width: 50%;
+    color: #fff;
+    padding: 10px;
+}
+
+.pic2 {
+    width: 55%;
+    height: 20%;
+    border: 2px solid black;
+
+
+    float: right;
+
+}
+
+table {
+    width: 40%;
+    border: 1px solid black;
+}
+
+nav {
+    font-weight: 800;
+    text-align: center;
+    justify-content: space-between;
+    padding: 14px 5%;
+    list-style: none;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+nav a {
+    margin: 20px 0;
+    padding: 2%;
+
+}
