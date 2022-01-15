@@ -34,20 +34,20 @@
 
   background:black;
   
-  height: 40%;
+  height: 30%;
   left: 49%;
   position: absolute;
-  top: 30%;
+  top: 15%;
   transform-origin: 50% 100%;
   width: 2.5%;
 }
 
 .seconds {
   background: red;
-  height: 40%;
+  height: 3%;
   left: 49.5%;
   position: absolute;
-  top: 30%;
+  top: 15%;
   transform-origin: 50% 80%;
   width: 2%;
   z-index: 8;
