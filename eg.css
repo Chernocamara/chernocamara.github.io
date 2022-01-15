@@ -34,7 +34,7 @@
 
   background:black;
   
-  height: 30%;
+  height: 20%;
   left: 49%;
   position: absolute;
   top: 15%;
@@ -44,7 +44,7 @@
 
 .seconds {
   background: red;
-  height: 3%;
+  height: 30%;
   left: 49.5%;
   position: absolute;
   top: 15%;
