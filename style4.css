@@ -1,0 +1,151 @@
+body {
+    background-color: lightblue;
+  }
+  
+ 
+ 
+ 
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column1 {
+    float: left;
+    width: 45%;
+    padding: 5px;
+    border: 15px solid gold; 
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+  }
+
+  .column2 {
+    float: left;
+    width: 85%;
+    padding: 5px;
+    border:  15px solid rgb(255, 94, 0); 
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+ .text1{
+   text-align: center;
+ }
+ .text1:hover{
+   letter-spacing: 2px;
+ }
+ 
+/* modal window part 1 */
+.btn1 {
+  background-color: orange;
+  text-decoration: none;
+  border: 2px solid purple;
+  border-radius: 4px;
+  padding: 2%;
+
+  text-align: center;
+  
+  
+  
+}
+
+
+.btn1 a:hover{
+  letter-spacing: 2px;
+  color: aliceblue;
+  
+}
+
+
+
+/* modal window part 2 */
+.mdl {
+  background-color: rgba(11, 198, 255, 0.6);
+  /* height: 300px; */
+  width:100%;
+   position: fixed;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   opacity: 0;
+   pointer-events: none;
+   height: auto;
+}
+.mdl:target {
+ opacity: 1;
+ pointer-events: all;
+}
+.msgblock{
+  background-color: white;
+  width:50%;
+  margin: auto;
+  
+  border:  5px solid rgb(255, 94, 0); 
+ 
+}
+
+
+.msgblock h1{}
+
+
+
+.close {
+  background-color: gray;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 42px;
+  padding: 2%;
+  float: left;
+}
+ 
+
+
+.bar1{
+  
+  width: 100%;
+  background-color: lightblue;
+  border: 1px solid black;
+
+}
+
+.bar2{
+  
+  width: 100%;
+  background-color: rgb(230, 173, 211);
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+
+.modalpic {
+  width: 80%;
+  
+  height: 100px;
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+  /* modal window part 1 */
+
+  
+  
+  
+  
+  
+  
