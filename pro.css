@@ -167,7 +167,7 @@ body {
 
   
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://e.edim.co/205361572/kRSFuS1YSugtCvF9.jpg?response-content-disposition=filename%3D%22intro_img2.jpg%22%3B%20filename%2A%3DUTF-8%27%27intro_img2.jpg&Expires=1642716773&Signature=Wrr93fOaN-mCdDQMc4wahySFjyMLlNlTFzum9RiniPdzM3kI1cefzgTJtqo1f0-T4FmXuYJTMno2UAgucUt8LYJql3g2NiWWQFXMILABLLckY2dkTUoNT4-T1W8bC1uCkBKCPbFnMYu1pydSazBJT6vsE65Io1ho0RQvXrChgOtARYlx2B0ma0JCwBtdnmq5PVESjw2xX-U2dgGRWp9l0YxrNr67hEdZV4bX5JUzV-WBGWgfpc-tJNHTRmRcLNv06ys8iz~asU7JQnv7UstIHv~2M8Q~88nqhMwmpnBvUHTvW3Rg4P6Qa-0IGAF8sDKvkvkoz2GP4G8yF9im~3a4vg__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ");
+    background: url("https://e.edim.co/205361572/kRSFuS1YSugtCvF9.jpg?response-content-disposition=filename%3D%22intro_img2.jpg%22%3B%20filename%2A%3DUTF-8%27%27intro_img2.jpg&Expires=1642716773&Signature=Wrr93fOaN-mCdDQMc4wahySFjyMLlNlTFzum9RiniPdzM3kI1cefzgTJtqo1f0-T4FmXuYJTMno2UAgucUt8LYJql3g2NiWWQFXMILABLLckY2dkTUoNT4-T1W8bC1uCkBKCPbFnMYu1pydSazBJT6vsE65Io1ho0RQvXrChgOtARYlx2B0ma0JCwBtdnmq5PVESjw2xX-U2dgGRWp9l0YxrNr67hEdZV4bX5JUzV-WBGWgfpc-tJNHTRmRcLNv06ys8iz~asU7JQnv7UstIHv~2M8Q~88nqhMwmpnBvUHTvW3Rg4P6Qa-0IGAF8sDKvkvkoz2GP4G8yF9im~3a4vg__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ");
    width: 95%;
    height: 500px;
     background-position: center;
