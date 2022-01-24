@@ -6,14 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style6.css">
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: rgb(255, 30, 161);
+        }
+
+        .flex-container .box {
+            background-color: #f1f1f1;
+            width: 50%;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 5%;
+
+
+        }
+
+
+        .menu ul {
+            display: flex;
+
+        }
+
+        .logo {
+
+            border-radius: 15px;
+            font-size: 34px;
+            font-weight: 800;
+            color: #fff;
+            text-transform: uppercase;
+
+        }
+
+        .logo:hover {
+            color: #000;
+            transition: 0.5s ease-in-out;
+            letter-spacing: 3px;
+        }
+
+        .logo2 {
+            right: 0%;
+            font-size: 34px;
+            font-weight: 800;
+            color: #fff;
+            text-transform: uppercase;
+
+        }
+
+        .text1 {
+            padding: 14px 5%;
+            font-size: smaller;
+        }
+
+        .text1 h1 {
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
+    <div class="menu">
+        <!--------------------Logo------------------------>
+        <img src="https://e.edim.co/205361572/hKifKYkhJ7TJTTUq.png?response-content-disposition=filename%3D%22logo.png%22%3B%20filename%2A%3DUTF-8%27%27logo.png&Expires=1641877637&Signature=AH84ixqcVXEGy0oKiXMHMHCpJIlDAzhbZFv0LRG5Y0ERX3-4b1N9crIQLPKGomPues1k3Iv4hcw3px3C17SWjDsT4rFEbSvEJPn9U8~TJciKBR1WY8auKmiw~qHaMPpmCriQPsuyjxH92PhlN-8-FRBYvCoCpGS3VSHa1iocpyjlth~eQgWwRwUHESEFQaLSezW6b9nK-NF9PYFyC3FbB1xFhD~UZUEuBYkvHpsYNzUMnOK0YMQ4lUi0-DUjbw0sM8mLAwuKG8OuSlqUuT7tagn0Ttw602UucpC-SCAhj-6KVg81Fzo-z2jkAWgZlOpyNIS5ECanabApHDZxFFJhDQ__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ"
+            alt="" width="70px" height="100px" class="logo">
+        <img src="https://e.edim.co/205361572/LK97EaGixwtLGblL.jpg?response-content-disposition=filename%3D%22iceland.jpg%22%3B%20filename%2A%3DUTF-8%27%27iceland.jpg&Expires=1641879183&Signature=LU1qCWyDC84JzMqiKEWuaGgtvPfbXvUpuUwhI2KyWqeIQKNgAkwN5~ax4R5hlhD-JMrwb0Qs4s2TDXm8rkF7hCV6Bdq3EJhIsOIi0ZOgyQULAIEaQCv9gVM2dYt~oNhJ1y7OqtqGj1-BZuNaAVQJcWkNvNIhKIEOrIWNC0Q6OQq34m90qz8XcpOg56WrVFZTTHCtmnriyEqpWzq7NC3ekpol9QvqntI4bBrgm75O8rEqbTkXaqXbA5kAT1z~4b-f0osBsR5d3tUhnmUYGCP4MoMyxht9nL0boe9okGHPW1kvKokk9EjdkJR8IqfSkSD9UV01Qn1v6WaZbusSR5Ywng__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ"
+            alt="" width="70px" height="100px" class="logo2">
+    </div>
 
-    <h1>Assignment 6</h1>
+    <p>Iceland is a country of sharp contrast. a place where fire and ice co-exist. Where dark winters are
+        offset by the summer's midnught sun. A country where insular existence has spurred a rich and vibrant
+        culture</p>
+    <div class="flex-container">
 
-    <script src="style6.js"></script>
+
+        <div class="box"><a href="#"></a></div>
+        <div class="box"></div>
+    </div>
+
+    <p>Try to resize the browser window to see the flexible layout.</p>
+    <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+
 </body>
 
 </html>
